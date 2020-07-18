@@ -163,7 +163,7 @@
             }
         },
       mounted() {
-          const url = `http://localhost:8000/api/v1/checkcreateddata/`;
+          const url = `http://localhost:8000/api/v1/checkdata/`;
           const config = {
             method: 'GET',
           };

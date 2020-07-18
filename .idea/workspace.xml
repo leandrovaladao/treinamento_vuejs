@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33f7b506-74a5-48f8-b421-ff595e137915" name="Default Changelist" comment="adiciona refactors e melhorias no frontend">
-      <change afterPath="$PROJECT_DIR$/frontend/static/css/app.092b935f.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/css/app.fb0c6e1c.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/img/logo.82b9c7a5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.5369dae9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.5369dae9.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.99785432.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.99785432.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.d094b909.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.d094b909.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/chunk-vendors.072386f1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/chunk-vendors.072386f1.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/chunk-vendors.b0f460c7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/static/js/chunk-vendors.b0f460c7.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/templates/frontend/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterDir="false" />
+    <list default="true" id="33f7b506-74a5-48f8-b421-ff595e137915" name="Default Changelist" comment="adiciona arquivos buildados e correções pontuais">
+      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.ca568800.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/static/js/app.ca568800.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/templates/frontend/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Posts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Posts.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/ToDos.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/ToDos.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/api_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/api_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treinamento_vuejs/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/treinamento_vuejs/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+            <state relative-caret-position="484">
+              <caret line="172" column="37" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -77,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e2f3c73b-a806-4c67-a2ce-65338bf2d8a0/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="152">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -98,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/api_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="232">
+              <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -125,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Posts.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="-399">
               <caret line="6" column="44" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -146,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="95">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -187,6 +169,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -213,12 +198,12 @@
         <option value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Posts.vue" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fe5b3c40-4985-4e50-b44d-ca64a16d561c/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/main/api_views.py" />
-        <option value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue" />
         <option value="$PROJECT_DIR$/treinamento_vuejs/api.py" />
         <option value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue" />
         <option value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/ToDos.vue" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e2f3c73b-a806-4c67-a2ce-65338bf2d8a0/console.sql" />
+        <option value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue" />
+        <option value="$PROJECT_DIR$/main/api_views.py" />
       </list>
     </option>
   </component>
@@ -294,7 +279,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/treinamento_vuejs/src/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -412,7 +397,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595091370489</updated>
       <workItem from="1595091372083" duration="12860000" />
-      <workItem from="1595104908028" duration="8361000" />
+      <workItem from="1595104908028" duration="8606000" />
     </task>
     <task id="LOCAL-00001" summary="adiciona backend do teste">
       <created>1595099109487</created>
@@ -435,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595108902990</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adiciona arquivos buildados e correções pontuais">
+      <created>1595113311702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595113311702</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21221000" />
+    <option name="totallyTimeSpent" value="21466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -448,7 +440,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2534819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.45153934" />
+      <window_info anchor="bottom" id="Database Console" visible="true" weight="0.45153934" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295325" />
@@ -460,7 +452,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32839224" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32839224" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -476,7 +468,8 @@
     <MESSAGE value="adiciona backend do teste" />
     <MESSAGE value="adiciona começo do frontend" />
     <MESSAGE value="adiciona refactors e melhorias no frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="adiciona refactors e melhorias no frontend" />
+    <MESSAGE value="adiciona arquivos buildados e correções pontuais" />
+    <option name="LAST_COMMIT_MESSAGE" value="adiciona arquivos buildados e correções pontuais" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/treinamento_vuejs/manage.py" />
@@ -675,42 +668,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/ToDos.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treinamento_vuejs/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/api_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,9 +688,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/treinamento_vuejs/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Posts.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="-399">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -735,10 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Albums.vue">
+    <entry file="file://$PROJECT_DIR$/frontend/treinamento_vuejs/src/views/Main.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="484">
+          <caret line="172" column="37" selection-start-line="172" selection-start-column="37" selection-end-line="172" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
@@ -747,8 +730,18 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e2f3c73b-a806-4c67-a2ce-65338bf2d8a0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="152">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/api_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
