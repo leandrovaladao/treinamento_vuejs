@@ -25,7 +25,7 @@ SECRET_KEY = '+8w^nwhl_9yg^d4z+-cpnyofd3ji69d$bv$s#qax+wt+=96n!n'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
+    'frontend'
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,12 @@ REST_USE_JWT = True
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('Bearer', 'Token', 'JWT'),
 }
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:8080',
+]
+CORS_ORIGIN_REGEX_WHITELIST = [
+    'http://localhost:8080',
+]
