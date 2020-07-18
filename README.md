@@ -15,6 +15,8 @@ Para acessar a interface gráfica basta ir na url: http://localhost:8000/initial
 
 Para checar as APIs é possivel buscar via requisição de API, o usuário padrão criado é username: admin e password: 123
 
+Caso seja necessário criar um novo usuário é só acessar a URL localhost:8000/api/v1/user e lá terá a opção de cadastrar um novo
+
 Todas as APIs possuem os EndPoints completos: GET, POST, PUT, PATCH E DELETE
 
 É necessário estar autenticado para acessar algumas APIs mas por motivos de praticidade não deixei todas bloqueadas com autenticação
