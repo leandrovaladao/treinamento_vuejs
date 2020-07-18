@@ -3,10 +3,10 @@
         <div v-if="!loading">
             <h1>To-Dos</h1>
             <ul class="list-group">
-                <li class="list-group-item" v-for="post in posts" v-bind:key="post.id">
-                    {{ post.content }}<br>
+                <li class="list-group-item" v-for="todo in todos" v-bind:key="todo.id">
+                    <strong>Titulo:</strong>{{ todo.title }}<br>
 
-                    <img v-if="post.image" :src="post.image">
+                    <strong>Completo?</strong>{{ todo.completed | convertBoolText }}<br>
                 </li>
             </ul>
             <div class="col-xs-12">
@@ -35,8 +35,8 @@
             goToMain(){
                 this.$router.push({ path: `/` });
             },
-            getAlbums(){
-                const url = `http://localhost:8000/api/v1/albums/`;
+            getTodos(){
+                const url = `http://localhost:8000/api/v1/todos/`;
 
                 const config = {
                 method: 'GET',
@@ -52,6 +52,14 @@
                 });
             },
         },
+        filters: {
+          convertBoolText(value){
+              if (value){
+                  return "Sim"
+              }
+              return "Não"
+          }
+        },
         mounted() {
             const url = `http://localhost:8000/api/token/`;
              const config = {
@@ -63,7 +71,7 @@
                 .post(url, config)
                 .then(response => {
                     this.token = response.data.access
-                    this.getAlbums();
+                    this.getTodos();
              });
         }
     }

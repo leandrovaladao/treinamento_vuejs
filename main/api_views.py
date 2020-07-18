@@ -1,4 +1,7 @@
 from rest_framework import viewsets
+from rest_framework.permissions import AllowAny
+from rest_framework.response import Response
+from rest_framework.status import HTTP_204_NO_CONTENT, HTTP_202_ACCEPTED, HTTP_409_CONFLICT
 from rest_framework.views import APIView
 from django.contrib.auth.models import User
 from main import models
@@ -38,3 +41,14 @@ class UserViewset(viewsets.ModelViewSet, PersmissionsMixin):
 
     queryset = User.objects.all()
     serializer_class = serializers.UserSerializer
+
+
+class CheckData(viewsets.ViewSet):
+    permission_classes = [AllowAny]
+
+    def list(self, request):
+        queryset = models.Posts.objects.count()
+        if queryset > 0:
+            return Response(status=HTTP_409_CONFLICT)
+        else:
+            return Response(status=HTTP_204_NO_CONTENT)

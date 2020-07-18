@@ -4,9 +4,9 @@
             <h1>Posts</h1>
             <ul class="list-group">
                 <li class="list-group-item" v-for="post in posts" v-bind:key="post.id">
-                    {{ post.content }}<br>
+                    <strong>Titulo:</strong>{{ post.title }}<br>
 
-                    <img v-if="post.image" :src="post.image">
+                    <strong>Conteúdo:</strong>{{ post.body }}
                 </li>
             </ul>
             <div class="col-xs-12">

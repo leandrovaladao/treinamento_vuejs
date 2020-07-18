@@ -4,9 +4,8 @@
             <h1>Albums</h1>
             <ul class="list-group">
                 <li class="list-group-item" v-for="album in albums" v-bind:key="album.id">
-                    {{ album.album_name }}<br>
+                    <strong>Titulo:</strong>{{ album.title }}<br>
 
-                    <img v-if="album.album_cover" :src="album.album_cover">
                 </li>
             </ul>
             <div class="col-xs-12">
