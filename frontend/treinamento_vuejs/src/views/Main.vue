@@ -25,6 +25,9 @@
             },
             goToTodos(){
                 this.$router.push({ path: `/todos/` });
+            },
+            insertDataIntoDb(){
+
             }
         }
     }

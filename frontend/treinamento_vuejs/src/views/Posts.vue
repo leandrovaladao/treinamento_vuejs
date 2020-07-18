@@ -1,19 +1,21 @@
 <template>
     <div class="wrapper bg-default" style="min-height: 100vh;">
-        <h1>Posts</h1>
-        <ul class="list-group">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="col-xs-12">
-          <div>
-              <a class="btn btn-sm btn-success m-t-5" @click="goToMain">
-                  Voltar para Principal
-              </a>
-          </div>
+        <div v-if="!loading">
+            <h1>Posts</h1>
+            <ul class="list-group">
+                <li class="list-group-item" v-for="post in posts" v-bind:key="post.id">
+                    {{ post.content }}<br>
+
+                    <img v-if="post.image" :src="post.image">
+                </li>
+            </ul>
+            <div class="col-xs-12">
+              <div>
+                  <a class="btn btn-sm btn-success m-t-5" @click="goToMain">
+                      Voltar para Principal
+                  </a>
+              </div>
+            </div>
         </div>
     </div>
 </template>
@@ -23,44 +25,49 @@
 
     export default {
         name: "Posts",
+        data() {
+            return {
+                token: '',
+                posts: [],
+                loading: true
+            }
+        },
+
         methods: {
             goToMain(){
                 this.$router.push({ path: `/` });
             },
             getPosts(){
-                const url = `localhost:8000/api/v1/posts/`;
+                const url = `http://localhost:8000/api/v1/posts/`;
 
-                const headers = this.getHeaders();
                 const config = {
                 method: 'GET',
-                headers: headers
+                athentication: `Bearer ${ this.token }`
                 };
 
                 axios
                 .get(url, config)
                 .then(response => {
-                  this.configs = response.data.configs;
-                  this.show = true;
+                  this.posts = response.data
+                  this.loading = false
 
-                  this.startCountDown();
                 });
             },
-            getHeaders(){
-                const url = `localhost:8000/api/token/`;
-                 const config = {
-                    method: 'POST',
-                    username: 'admin',
-                    password: '123'
-                 };
-                 axios
-                    .get(url, config)
-                    .then(response => {
-                      console.log(response)
-                 });
-            }
         },
         mounted() {
-            this.getPosts();
+             const url = `http://localhost:8000/api/token/`;
+             const config = {
+                method: 'POST',
+                username: 'admin',
+                password: '123'
+             };
+             axios
+                .post(url, config)
+                .then(response => {
+                    this.token = response.data.access
+                    this.getPosts();
+             });
+
         }
     }
 </script>
